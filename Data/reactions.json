@@ -1,0 +1,5407 @@
+[
+ {
+  "id": "acid_carbonate_hcl",
+  "type": "acid-carbonate",
+  "equation": "Na2CO3 + 2HCl -> 2NaCl + H2O + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na2CO3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -27.0,
+  "dS_JK": 210.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "فوران وتصاعد غاز عديم اللون يعكّر ماء الجير",
+  "gas": "CO2"
+ },
+ {
+  "id": "acid_bicarb_hcl",
+  "type": "acid-carbonate",
+  "equation": "NaHCO3 + HCl -> NaCl + H2O + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaHCO3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 12.0,
+  "dS_JK": 270.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "فوران سريع وتصاعد غاز CO2 (يعكّر ماء الجير)",
+  "gas": "CO2"
+ },
+ {
+  "id": "acid_caco3_hcl",
+  "type": "acid-carbonate",
+  "equation": "CaCO3 + 2HCl -> CaCl2 + H2O + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CaCO3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "CaCl2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -15.0,
+  "dS_JK": 150.0,
+  "Ea_kJ": 35.0,
+  "observationAr": "فوران وتصاعد CO2 والرخام يذوب تدريجيًا",
+  "gas": "CO2"
+ },
+ {
+  "id": "acid_sulfite_hcl",
+  "type": "acid-sulfite",
+  "equation": "Na2SO3 + 2HCl -> 2NaCl + H2O + SO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na2SO3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -30.0,
+  "dS_JK": 190.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "غاز SO2 برائحة الكبريت المحترق؛ يخضّر ورقة ثنائي الكرومات المحمضة",
+  "gas": "SO2"
+ },
+ {
+  "id": "acid_sulfide_hcl",
+  "type": "acid-sulfide",
+  "equation": "Na2S + 2HCl -> 2NaCl + H2S",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na2S",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "H2S",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -60.0,
+  "dS_JK": 60.0,
+  "Ea_kJ": 15.0,
+  "observationAr": "غاز H2S برائحة البيض الفاسد؛ يسوّد ورقة خلات الرصاص",
+  "gas": "H2S"
+ },
+ {
+  "id": "acid_fes_hcl",
+  "type": "acid-sulfide",
+  "equation": "FeS + 2HCl -> FeCl2 + H2S",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "FeS",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "FeCl2",
+    "coef": 1
+   },
+   {
+    "species": "H2S",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -45.0,
+  "dS_JK": 100.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "غاز H2S برائحة البيض الفاسد",
+  "gas": "H2S"
+ },
+ {
+  "id": "acid_thiosulfate_hcl",
+  "type": "acid-thiosulfate",
+  "equation": "Na2S2O3 + 2HCl -> 2NaCl + H2O + SO2 + S",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na2S2O3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 1
+   },
+   {
+    "species": "S",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -20.0,
+  "dS_JK": 280.0,
+  "Ea_kJ": 25.0,
+  "observationAr": "عكارة صفراء لبنية من الكبريت مع تصاعد SO2",
+  "gas": "SO2"
+ },
+ {
+  "id": "acid_nitrite_hcl",
+  "type": "acid-nitrite",
+  "equation": "2NaNO2 + 2HCl -> 2NaCl + NO + NO2 + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaNO2",
+    "coef": 2
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "NO",
+    "coef": 1
+   },
+   {
+    "species": "NO2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -35.0,
+  "dS_JK": 330.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "أبخرة بنية محمرة من NO2 (يتأكسد NO في الهواء)",
+  "gas": "NO2"
+ },
+ {
+  "id": "halide_nacl_h2so4",
+  "type": "conc-h2so4",
+  "equation": "NaCl + H2SO4 -> NaHSO4 + HCl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaCl",
+    "coef": 1
+   },
+   {
+    "species": "H2SO4",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NaHSO4",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -4.0,
+  "dS_JK": 130.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "غاز HCl عديم اللون يكوّن أبخرة بيضاء مع ساق النشادر",
+  "gas": "HCl"
+ },
+ {
+  "id": "halide_nabr_h2so4",
+  "type": "conc-h2so4",
+  "equation": "2NaBr + 3H2SO4 -> 2NaHSO4 + Br2 + SO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaBr",
+    "coef": 2
+   },
+   {
+    "species": "H2SO4",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "NaHSO4",
+    "coef": 2
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -60.0,
+  "dS_JK": 420.0,
+  "Ea_kJ": 45.0,
+  "observationAr": "أبخرة بنية محمرة من البروم مع SO2",
+  "gas": "Br2"
+ },
+ {
+  "id": "halide_nai_h2so4",
+  "type": "conc-h2so4",
+  "equation": "8NaI + 9H2SO4 -> 8NaHSO4 + 4I2 + H2S + 4H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaI",
+    "coef": 8
+   },
+   {
+    "species": "H2SO4",
+    "coef": 9
+   }
+  ],
+  "products": [
+   {
+    "species": "NaHSO4",
+    "coef": 8
+   },
+   {
+    "species": "I2",
+    "coef": 4
+   },
+   {
+    "species": "H2S",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 4
+   }
+  ],
+  "conditions": [
+   "conc",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -300.0,
+  "dS_JK": 700.0,
+  "Ea_kJ": 45.0,
+  "observationAr": "أبخرة بنفسجية من اليود ورائحة H2S وراسب أسود/بني",
+  "gas": "I2"
+ },
+ {
+  "id": "nitrate_conc_cu",
+  "type": "conc-h2so4",
+  "equation": "Cu + 4HNO3 -> Cu(NO3)2 + 2NO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu",
+    "coef": 1
+   },
+   {
+    "species": "HNO3",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu(NO3)2",
+    "coef": 1
+   },
+   {
+    "species": "NO2",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -250.0,
+  "dS_JK": 220.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "غاز بني محمر NO2 ومحلول أزرق مخضر",
+  "gas": "NO2"
+ },
+ {
+  "id": "nitrate_dil_cu",
+  "type": "redox",
+  "equation": "3Cu + 8HNO3 -> 3Cu(NO3)2 + 2NO + 4H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu",
+    "coef": 3
+   },
+   {
+    "species": "HNO3",
+    "coef": 8
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu(NO3)2",
+    "coef": 3
+   },
+   {
+    "species": "NO",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 4
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -210.0,
+  "dS_JK": 160.0,
+  "Ea_kJ": 45.0,
+  "observationAr": "غاز عديم اللون يتحول لبني عند ملامسة الهواء ومحلول أزرق",
+  "gas": "NO"
+ },
+ {
+  "id": "brown_ring",
+  "type": "brown-ring",
+  "equation": "NO3^- + 3Fe^2+ + 4H^+ -> NO + 3Fe^3+ + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NO3^-",
+    "coef": 1
+   },
+   {
+    "species": "Fe^2+",
+    "coef": 3
+   },
+   {
+    "species": "H^+",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "NO",
+    "coef": 1
+   },
+   {
+    "species": "Fe^3+",
+    "coef": 3
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc",
+   "slow-pour"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": true,
+  "dH_kJ": -100.0,
+  "dS_JK": -60.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "حلقة بنية عند سطح التقاء الكبريتيك المركز بالمحلول (Fe(NO)^2+)",
+  "gas": null
+ },
+ {
+  "id": "sub_zn_hcl",
+  "type": "single-displacement",
+  "equation": "Zn + 2HCl -> ZnCl2 + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Zn",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "ZnCl2",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -153.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 45.0,
+  "observationAr": "فقاعات H2 وذوبان الخارصين",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_mg_hcl",
+  "type": "single-displacement",
+  "equation": "Mg + 2HCl -> MgCl2 + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Mg",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "MgCl2",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -467.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 25.0,
+  "observationAr": "فوران شديد وحرارة مرتفعة؛ الغاز ينفجر مع شظية مشتعلة",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_fe_hcl",
+  "type": "single-displacement",
+  "equation": "Fe + 2HCl -> FeCl2 + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "FeCl2",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -87.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 55.0,
+  "observationAr": "فقاعات بطيئة ومحلول أخضر باهت",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_al_hcl",
+  "type": "single-displacement",
+  "equation": "2Al + 6HCl -> 2AlCl3 + 3H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Al",
+    "coef": 2
+   },
+   {
+    "species": "HCl",
+    "coef": 6
+   }
+  ],
+  "products": [
+   {
+    "species": "AlCl3",
+    "coef": 2
+   },
+   {
+    "species": "H2",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -1050.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "بدء بطيء (طبقة أكسيد) ثم فوران قوي",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_na_h2o",
+  "type": "single-displacement",
+  "equation": "2Na + 2H2O -> 2NaOH + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaOH",
+    "coef": 2
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -368.0,
+  "dS_JK": 90.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "يجري على سطح الماء ويصهر ويلتهب بلون أصفر وتصاعد H2؛ المحلول يزرق مع عباد الشمس",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_k_h2o",
+  "type": "single-displacement",
+  "equation": "2K + 2H2O -> 2KOH + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "K",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "KOH",
+    "coef": 2
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -393.0,
+  "dS_JK": 90.0,
+  "Ea_kJ": 5.0,
+  "observationAr": "تفاعل عنيف والغاز يشتعل بلهب بنفسجي",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_ca_h2o",
+  "type": "single-displacement",
+  "equation": "Ca + 2H2O -> Ca(OH)2 + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Ca",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Ca(OH)2",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -415.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 25.0,
+  "observationAr": "فقاعات H2 وتعكّر المحلول",
+  "gas": "H2"
+ },
+ {
+  "id": "sub_fe_cuso4",
+  "type": "single-displacement",
+  "equation": "Fe + CuSO4 -> FeSO4 + Cu",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe",
+    "coef": 1
+   },
+   {
+    "species": "CuSO4",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "FeSO4",
+    "coef": 1
+   },
+   {
+    "species": "Cu",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -153.0,
+  "dS_JK": -13.0,
+  "Ea_kJ": 25.0,
+  "observationAr": "ترسب نحاس أحمر وزوال اللون الأزرق تدريجيًا",
+  "gas": null
+ },
+ {
+  "id": "sub_zn_cuso4",
+  "type": "single-displacement",
+  "equation": "Zn + CuSO4 -> ZnSO4 + Cu",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Zn",
+    "coef": 1
+   },
+   {
+    "species": "CuSO4",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "ZnSO4",
+    "coef": 1
+   },
+   {
+    "species": "Cu",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -218.0,
+  "dS_JK": -21.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "راسب نحاس أسود/أحمر وزوال اللون الأزرق",
+  "gas": null
+ },
+ {
+  "id": "sub_cu_agno3",
+  "type": "single-displacement",
+  "equation": "Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu",
+    "coef": 1
+   },
+   {
+    "species": "AgNO3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu(NO3)2",
+    "coef": 1
+   },
+   {
+    "species": "Ag",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -147.0,
+  "dS_JK": -30.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "شجيرات فضة لامعة ومحلول يزرق",
+  "gas": null
+ },
+ {
+  "id": "sub_zn_pbno3",
+  "type": "single-displacement",
+  "equation": "Zn + Pb(NO3)2 -> Zn(NO3)2 + Pb",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Zn",
+    "coef": 1
+   },
+   {
+    "species": "Pb(NO3)2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Zn(NO3)2",
+    "coef": 1
+   },
+   {
+    "species": "Pb",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -132.0,
+  "dS_JK": -15.0,
+  "Ea_kJ": 25.0,
+  "observationAr": "ترسب رصاص رمادي على شكل أوراق",
+  "gas": null
+ },
+ {
+  "id": "sub_cl2_ki",
+  "type": "halogen-displacement",
+  "equation": "Cl2 + 2KI -> 2KCl + I2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cl2",
+    "coef": 1
+   },
+   {
+    "species": "KI",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "KCl",
+    "coef": 2
+   },
+   {
+    "species": "I2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -113.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "لون بني للمحلول (يود) يزرّق مع النشا",
+  "gas": "I2"
+ },
+ {
+  "id": "sub_cl2_kbr",
+  "type": "halogen-displacement",
+  "equation": "Cl2 + 2KBr -> 2KCl + Br2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cl2",
+    "coef": 1
+   },
+   {
+    "species": "KBr",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "KCl",
+    "coef": 2
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -49.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "لون برتقالي محمر للمحلول (بروم)",
+  "gas": "Br2"
+ },
+ {
+  "id": "sub_br2_ki",
+  "type": "halogen-displacement",
+  "equation": "Br2 + 2KI -> 2KBr + I2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Br2",
+    "coef": 1
+   },
+   {
+    "species": "KI",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "KBr",
+    "coef": 2
+   },
+   {
+    "species": "I2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -64.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "لون بني من اليود ويزرّق مع النشا",
+  "gas": "I2"
+ },
+ {
+  "id": "decomp_caco3",
+  "type": "thermal-decomposition",
+  "equation": "CaCO3 -> CaO + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CaCO3",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CaO",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 178.0,
+  "dS_JK": 161.0,
+  "Ea_kJ": 180.0,
+  "observationAr": "يتحلل عند الحرارة العالية (>825°م) وتصاعد CO2 ويبقى مسحوق أبيض",
+  "gas": "CO2"
+ },
+ {
+  "id": "decomp_cuco3",
+  "type": "thermal-decomposition",
+  "equation": "CuCO3 -> CuO + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CuCO3",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CuO",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 57.0,
+  "dS_JK": 170.0,
+  "Ea_kJ": 110.0,
+  "observationAr": "يتحول الأخضر إلى أسود (CuO) مع تصاعد CO2",
+  "gas": "CO2"
+ },
+ {
+  "id": "decomp_nahco3",
+  "type": "thermal-decomposition",
+  "equation": "2NaHCO3 -> Na2CO3 + H2O + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaHCO3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Na2CO3",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 135.0,
+  "dS_JK": 335.0,
+  "Ea_kJ": 95.0,
+  "observationAr": "تصاعد CO2 وقطرات ماء على جدار الأنبوب",
+  "gas": "CO2"
+ },
+ {
+  "id": "decomp_hgo",
+  "type": "thermal-decomposition",
+  "equation": "2HgO -> 2Hg + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "HgO",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Hg",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 182.0,
+  "dS_JK": 216.0,
+  "Ea_kJ": 150.0,
+  "observationAr": "يتحول الأحمر لمرآة زئبقية رمادية مع تصاعد O2 يوهّج الشظية",
+  "gas": "O2"
+ },
+ {
+  "id": "decomp_kclo3",
+  "type": "thermal-decomposition",
+  "equation": "2KClO3 -> 2KCl + 3O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "KClO3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "KCl",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:MnO2"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "MnO2",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -78.0,
+  "dS_JK": 494.0,
+  "Ea_kJ": 65.0,
+  "observationAr": "تصاعد O2 بسرعة مع MnO2؛ تتوهج الشظية",
+  "gas": "O2"
+ },
+ {
+  "id": "decomp_h2o2",
+  "type": "thermal-decomposition",
+  "equation": "2H2O2 -> 2H2O + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2O2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "H2O",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cat:MnO2"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "MnO2",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -196.0,
+  "dS_JK": 126.0,
+  "Ea_kJ": 50.0,
+  "observationAr": "فوران شديد وتصاعد O2 مع MnO2؛ تتوهج الشظية",
+  "gas": "O2"
+ },
+ {
+  "id": "decomp_kmno4",
+  "type": "thermal-decomposition",
+  "equation": "2KMnO4 -> K2MnO4 + MnO2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "KMnO4",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "K2MnO4",
+    "coef": 1
+   },
+   {
+    "species": "MnO2",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 30.0,
+  "dS_JK": 300.0,
+  "Ea_kJ": 110.0,
+  "observationAr": "تصاعد O2 وتغيّر اللون البنفسجي إلى الأخضر الداكن/الأسود",
+  "gas": "O2"
+ },
+ {
+  "id": "decomp_cu_oh_2",
+  "type": "thermal-decomposition",
+  "equation": "Cu(OH)2 -> CuO + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu(OH)2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CuO",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 52.0,
+  "dS_JK": 80.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "يتحول الأزرق الهلامي إلى أسود",
+  "gas": null
+ },
+ {
+  "id": "decomp_nh4_2cr2o7",
+  "type": "thermal-decomposition",
+  "equation": "(NH4)2Cr2O7 -> Cr2O3 + N2 + 4H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "(NH4)2Cr2O7",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Cr2O3",
+    "coef": 1
+   },
+   {
+    "species": "N2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 4
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -315.0,
+  "dS_JK": 700.0,
+  "Ea_kJ": 120.0,
+  "observationAr": "بركان: يتحول البرتقالي إلى أخضر ويتصاعد نيتروجين وبخار",
+  "gas": "N2"
+ },
+ {
+  "id": "decomp_cuso4_5h2o",
+  "type": "thermal-decomposition",
+  "equation": "CuSO4.5H2O -> CuSO4 + 5H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CuSO4.5H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CuSO4",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 5
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 78.0,
+  "dS_JK": 400.0,
+  "Ea_kJ": 70.0,
+  "observationAr": "يتحول الأزرق إلى أبيض (لامائي) مع بخار ماء",
+  "gas": null
+ },
+ {
+  "id": "decomp_nh4cl",
+  "type": "thermal-decomposition",
+  "equation": "NH4Cl -> NH3 + HCl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NH4Cl",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NH3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 176.0,
+  "dS_JK": 285.0,
+  "Ea_kJ": 110.0,
+  "observationAr": "تسامي ثم يعود يترسب على الجدار البارد",
+  "gas": "NH3"
+ },
+ {
+  "id": "decomp_agno3",
+  "type": "thermal-decomposition",
+  "equation": "2AgNO3 -> 2Ag + 2NO2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "AgNO3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Ag",
+    "coef": 2
+   },
+   {
+    "species": "NO2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 316.0,
+  "dS_JK": 420.0,
+  "Ea_kJ": 140.0,
+  "observationAr": "راسب فضي وغاز بني NO2 وتصاعد O2",
+  "gas": "NO2"
+ },
+ {
+  "id": "decomp_pbno3",
+  "type": "thermal-decomposition",
+  "equation": "2Pb(NO3)2 -> 2PbO + 4NO2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Pb(NO3)2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "PbO",
+    "coef": 2
+   },
+   {
+    "species": "NO2",
+    "coef": 4
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 583.0,
+  "dS_JK": 900.0,
+  "Ea_kJ": 130.0,
+  "observationAr": "غاز بني NO2 وراسب أصفر PbO",
+  "gas": "NO2"
+ },
+ {
+  "id": "decomp_cunitrate",
+  "type": "thermal-decomposition",
+  "equation": "2Cu(NO3)2 -> 2CuO + 4NO2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu(NO3)2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "CuO",
+    "coef": 2
+   },
+   {
+    "species": "NO2",
+    "coef": 4
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 420.0,
+  "dS_JK": 800.0,
+  "Ea_kJ": 120.0,
+  "observationAr": "غاز بني NO2 وراسب أسود CuO",
+  "gas": "NO2"
+ },
+ {
+  "id": "decomp_nano3",
+  "type": "thermal-decomposition",
+  "equation": "2NaNO3 -> 2NaNO2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaNO3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaNO2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 104.0,
+  "dS_JK": 240.0,
+  "Ea_kJ": 200.0,
+  "observationAr": "يتصاعد O2 ويتكوّن النيتريت",
+  "gas": "O2"
+ },
+ {
+  "id": "prec_agcl",
+  "type": "precipitation",
+  "equation": "Ag^+ + Cl^- -> AgCl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Ag^+",
+    "coef": 1
+   },
+   {
+    "species": "Cl^-",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "AgCl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -65.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب أبيض متخثر يذوب في النشادر المخففة",
+  "gas": null
+ },
+ {
+  "id": "prec_baso4",
+  "type": "precipitation",
+  "equation": "Ba^2+ + SO4^2- -> BaSO4",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Ba^2+",
+    "coef": 1
+   },
+   {
+    "species": "SO4^2-",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "BaSO4",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -26.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب أبيض ناعم لا يذوب في الأحماض",
+  "gas": null
+ },
+ {
+  "id": "prec_pbi2",
+  "type": "precipitation",
+  "equation": "Pb^2+ + 2I^- -> PbI2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Pb^2+",
+    "coef": 1
+   },
+   {
+    "species": "I^-",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "PbI2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -12.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب أصفر ذهبي؛ يذوب بالتسخين ويعود يتبلور (المطر الذهبي)",
+  "gas": null
+ },
+ {
+  "id": "prec_cus",
+  "type": "precipitation",
+  "equation": "Cu^2+ + S^2- -> CuS",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu^2+",
+    "coef": 1
+   },
+   {
+    "species": "S^2-",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CuS",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -53.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب أسود",
+  "gas": null
+ },
+ {
+  "id": "prec_feoh3",
+  "type": "precipitation",
+  "equation": "Fe^3+ + 3OH^- -> Fe(OH)3",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe^3+",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "Fe(OH)3",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -120.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب بني محمر هلامي",
+  "gas": null
+ },
+ {
+  "id": "prec_cuoh2",
+  "type": "precipitation",
+  "equation": "Cu^2+ + 2OH^- -> Cu(OH)2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu^2+",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu(OH)2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -70.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 2.0,
+  "observationAr": "راسب أزرق هلامي",
+  "gas": null
+ },
+ {
+  "id": "amph_znoh2",
+  "type": "amphoteric",
+  "equation": "Zn(OH)2 + 2OH^- -> Zn(OH)4^2-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Zn(OH)2",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Zn(OH)4^2-",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "excess:OH"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "OH",
+  "slowPour": false,
+  "dH_kJ": -20.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "الراسب الأبيض يذوب في زيادة القلوي",
+  "gas": null
+ },
+ {
+  "id": "amph_aloh3",
+  "type": "amphoteric",
+  "equation": "Al(OH)3 + OH^- -> Al(OH)4^-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Al(OH)3",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Al(OH)4^-",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "excess:OH"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "OH",
+  "slowPour": false,
+  "dH_kJ": -15.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "الراسب الأبيض الهلامي يذوب في زيادة القلوي",
+  "gas": null
+ },
+ {
+  "id": "complex_cu_nh3",
+  "type": "complex",
+  "equation": "Cu(OH)2 + 4NH3 -> Cu(NH3)4^2+ + 2OH^-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu(OH)2",
+    "coef": 1
+   },
+   {
+    "species": "NH3",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu(NH3)4^2+",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "excess:NH3"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "NH3",
+  "slowPour": false,
+  "dH_kJ": -35.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "الراسب الأزرق يذوب مكوّنًا محلولًا أزرق غامقًا",
+  "gas": null
+ },
+ {
+  "id": "complex_agcl_nh3",
+  "type": "complex",
+  "equation": "AgCl + 2NH3 -> Ag(NH3)2^+ + Cl^-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "AgCl",
+    "coef": 1
+   },
+   {
+    "species": "NH3",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Ag(NH3)2^+",
+    "coef": 1
+   },
+   {
+    "species": "Cl^-",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "excess:NH3"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "NH3",
+  "slowPour": false,
+  "dH_kJ": -10.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "الراسب الأبيض يذوب في النشادر",
+  "gas": null
+ },
+ {
+  "id": "redox_kmno4_fe",
+  "type": "redox",
+  "equation": "MnO4^- + 5Fe^2+ + 8H^+ -> Mn^2+ + 5Fe^3+ + 4H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "MnO4^-",
+    "coef": 1
+   },
+   {
+    "species": "Fe^2+",
+    "coef": 5
+   },
+   {
+    "species": "H^+",
+    "coef": 8
+   }
+  ],
+  "products": [
+   {
+    "species": "Mn^2+",
+    "coef": 1
+   },
+   {
+    "species": "Fe^3+",
+    "coef": 5
+   },
+   {
+    "species": "H2O",
+    "coef": 4
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -440.0,
+  "dS_JK": -30.0,
+  "Ea_kJ": 15.0,
+  "observationAr": "يزول لون البرمنجنات البنفسجي بسرعة (معايرة)",
+  "gas": null
+ },
+ {
+  "id": "redox_dichromate_so2",
+  "type": "redox",
+  "equation": "Cr2O7^2- + 3SO2 + 2H^+ -> 2Cr^3+ + 3SO4^2- + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cr2O7^2-",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 3
+   },
+   {
+    "species": "H^+",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Cr^3+",
+    "coef": 2
+   },
+   {
+    "species": "SO4^2-",
+    "coef": 3
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -400.0,
+  "dS_JK": -50.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "برتقالي إلى أخضر",
+  "gas": null
+ },
+ {
+  "id": "redox_kmno4_oxalate",
+  "type": "redox",
+  "equation": "2MnO4^- + 5C2O4^2- + 16H^+ -> 2Mn^2+ + 10CO2 + 8H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "MnO4^-",
+    "coef": 2
+   },
+   {
+    "species": "C2O4^2-",
+    "coef": 5
+   },
+   {
+    "species": "H^+",
+    "coef": 16
+   }
+  ],
+  "products": [
+   {
+    "species": "Mn^2+",
+    "coef": 2
+   },
+   {
+    "species": "CO2",
+    "coef": 10
+   },
+   {
+    "species": "H2O",
+    "coef": 8
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -740.0,
+  "dS_JK": 800.0,
+  "Ea_kJ": 70.0,
+  "observationAr": "بطيء أول الأمر ثم يزول اللون سريعًا (حفز ذاتي Mn^2+)",
+  "gas": "CO2"
+ },
+ {
+  "id": "redox_thiosulfate_i2",
+  "type": "redox",
+  "equation": "2S2O3^2- + I2 -> S4O6^2- + 2I^-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "S2O3^2-",
+    "coef": 2
+   },
+   {
+    "species": "I2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "S4O6^2-",
+    "coef": 1
+   },
+   {
+    "species": "I^-",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -90.0,
+  "dS_JK": -20.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "يزول اللون البني لليود (معايرة)",
+  "gas": null
+ },
+ {
+  "id": "redox_h2o2_ki",
+  "type": "redox",
+  "equation": "H2O2 + 2I^- + 2H^+ -> I2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2O2",
+    "coef": 1
+   },
+   {
+    "species": "I^-",
+    "coef": 2
+   },
+   {
+    "species": "H^+",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "I2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -170.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 15.0,
+  "observationAr": "يتلوّن بالبني ويزرّق مع النشا",
+  "gas": null
+ },
+ {
+  "id": "redox_ki_fecl3",
+  "type": "redox",
+  "equation": "2Fe^3+ + 2I^- -> 2Fe^2+ + I2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe^3+",
+    "coef": 2
+   },
+   {
+    "species": "I^-",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Fe^2+",
+    "coef": 2
+   },
+   {
+    "species": "I2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -30.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 15.0,
+  "observationAr": "لون بني (يود) يزرّق مع النشا",
+  "gas": null
+ },
+ {
+  "id": "redox_cr3_h2o2",
+  "type": "redox",
+  "equation": "2Cr^3+ + 3H2O2 + 10OH^- -> 2CrO4^2- + 8H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cr^3+",
+    "coef": 2
+   },
+   {
+    "species": "H2O2",
+    "coef": 3
+   },
+   {
+    "species": "OH^-",
+    "coef": 10
+   }
+  ],
+  "products": [
+   {
+    "species": "CrO4^2-",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 8
+   }
+  ],
+  "conditions": [
+   "excess:OH"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "OH",
+  "slowPour": false,
+  "dH_kJ": -300.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "أخضر إلى أصفر (كرومات)",
+  "gas": null
+ },
+ {
+  "id": "redox_mno2_hcl",
+  "type": "redox",
+  "equation": "MnO2 + 4HCl -> MnCl2 + Cl2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "MnO2",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "MnCl2",
+    "coef": 1
+   },
+   {
+    "species": "Cl2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -25.0,
+  "dS_JK": 150.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "غاز كلور أصفر مخضر يبيّض ورقة عباد الشمس الرطبة",
+  "gas": "Cl2"
+ },
+ {
+  "id": "redox_kmno4_hcl",
+  "type": "redox",
+  "equation": "2KMnO4 + 16HCl -> 2KCl + 2MnCl2 + 5Cl2 + 8H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "KMnO4",
+    "coef": 2
+   },
+   {
+    "species": "HCl",
+    "coef": 16
+   }
+  ],
+  "products": [
+   {
+    "species": "KCl",
+    "coef": 2
+   },
+   {
+    "species": "MnCl2",
+    "coef": 2
+   },
+   {
+    "species": "Cl2",
+    "coef": 5
+   },
+   {
+    "species": "H2O",
+    "coef": 8
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -370.0,
+  "dS_JK": 500.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "غاز كلور أصفر مخضر ويزول اللون البنفسجي",
+  "gas": "Cl2"
+ },
+ {
+  "id": "redox_cu_h2so4",
+  "type": "redox",
+  "equation": "Cu + 2H2SO4 -> CuSO4 + SO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu",
+    "coef": 1
+   },
+   {
+    "species": "H2SO4",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "CuSO4",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -50.0,
+  "dS_JK": 220.0,
+  "Ea_kJ": 80.0,
+  "observationAr": "غاز SO2 ومحلول أزرق",
+  "gas": "SO2"
+ },
+ {
+  "id": "redox_c_h2so4",
+  "type": "redox",
+  "equation": "C + 2H2SO4 -> CO2 + 2SO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C",
+    "coef": 1
+   },
+   {
+    "species": "H2SO4",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 1
+   },
+   {
+    "species": "SO2",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "conc",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 89.0,
+  "dS_JK": 550.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "غازان CO2 وSO2؛ الفحم يتأكسد",
+  "gas": "SO2"
+ },
+ {
+  "id": "dehydrate_sugar",
+  "type": "dehydration",
+  "equation": "C12H22O11 -> 12C + 11H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C12H22O11",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C",
+    "coef": 12
+   },
+   {
+    "species": "H2O",
+    "coef": 11
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -300.0,
+  "dS_JK": 1200.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "يسوّد السكر وينتفخ ويتصاعد بخار (نزع ماء بالكبريتيك المركز)",
+  "gas": null
+ },
+ {
+  "id": "neut_hcl_naoh",
+  "type": "neutralization",
+  "equation": "HCl + NaOH -> NaCl + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "HCl",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NaCl",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -57.0,
+  "dS_JK": 80.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "تعادل: ΔH≈-57 kJ/mol ارتفاع حرارة المحلول",
+  "gas": null
+ },
+ {
+  "id": "neut_h2so4_naoh",
+  "type": "neutralization",
+  "equation": "H2SO4 + 2NaOH -> Na2SO4 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2SO4",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Na2SO4",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -114.0,
+  "dS_JK": 160.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "تعادل وارتفاع حرارة",
+  "gas": null
+ },
+ {
+  "id": "neut_ch3cooh_naoh",
+  "type": "neutralization",
+  "equation": "CH3COOH + NaOH -> CH3COONa + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COOH",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COONa",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -55.0,
+  "dS_JK": 70.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "تعادل حمض ضعيف مع قاعدة قوية: pH≈8.7 عند نقطة التكافؤ",
+  "gas": null
+ },
+ {
+  "id": "neut_nh3_hcl",
+  "type": "neutralization",
+  "equation": "NH3 + HCl -> NH4Cl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NH3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NH4Cl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -52.0,
+  "dS_JK": -10.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "تعادل: pH أقل من 7 عند التكافؤ (تميؤ NH4^+)",
+  "gas": null
+ },
+ {
+  "id": "dilution_h2so4",
+  "type": "hazard",
+  "equation": "H2SO4(conc) + H2O -> H3O^+ + HSO4^-",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2SO4(conc)",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "H3O^+",
+    "coef": 1
+   },
+   {
+    "species": "HSO4^-",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -95.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "خطر: ارتفاع حرارة شديد قد يغلي الماء ويتناثر الحمض؛ أضف الحمض للماء دائمًا",
+  "gas": null
+ },
+ {
+  "id": "limewater_co2",
+  "type": "gas-test",
+  "equation": "Ca(OH)2 + CO2 -> CaCO3 + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Ca(OH)2",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CaCO3",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -113.0,
+  "dS_JK": -100.0,
+  "Ea_kJ": 5.0,
+  "observationAr": "ماء الجير يتعكّر ثم يروق بزيادة CO2 (Ca(HCO3)2)",
+  "gas": null
+ },
+ {
+  "id": "limewater_clear",
+  "type": "gas-test",
+  "equation": "CaCO3 + CO2 + H2O -> Ca(HCO3)2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CaCO3",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Ca(HCO3)2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "excess:CO2"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": "CO2",
+  "slowPour": false,
+  "dH_kJ": -40.0,
+  "dS_JK": -100.0,
+  "Ea_kJ": 5.0,
+  "observationAr": "يروق العكر عند الاستمرار في تمرير CO2",
+  "gas": null
+ },
+ {
+  "id": "nh3_hcl_fumes",
+  "type": "gas-test",
+  "equation": "NH3 + HCl -> NH4Cl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NH3",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NH4Cl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -176.0,
+  "dS_JK": -285.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "دخان أبيض كثيف من كلوريد الأمونيوم عند التقاء الغازين",
+  "gas": null
+ },
+ {
+  "id": "h2_pop",
+  "type": "gas-test",
+  "equation": "2H2 + O2 -> 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -572.0,
+  "dS_JK": -327.0,
+  "Ea_kJ": 50.0,
+  "observationAr": "فرقعة (صوت انفجار صغير) عند تقريب شظية مشتعلة",
+  "gas": null
+ },
+ {
+  "id": "equil_fescn",
+  "type": "equilibrium",
+  "equation": "Fe^3+ + SCN^- <-> FeSCN^2+",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "Fe^3+",
+    "coef": 1
+   },
+   {
+    "species": "SCN^-",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "FeSCN^2+",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -8.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "لون أحمر دموي؛ يشتد بزيادة Fe^3+ أو SCN^- ويفتح بإضافة قلوي أو تسخين",
+  "gas": null
+ },
+ {
+  "id": "equil_cocl4",
+  "type": "equilibrium",
+  "equation": "Co(H2O)6^2+ + 4Cl^- <-> CoCl4^2- + 6H2O",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "Co(H2O)6^2+",
+    "coef": 1
+   },
+   {
+    "species": "Cl^-",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "CoCl4^2-",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 6
+   }
+  ],
+  "conditions": [
+   "conc"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 50.0,
+  "dS_JK": 300.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "وردي ⇄ أزرق؛ التسخين وإضافة HCl المركز يحوّل للأزرق (تفاعل ماص)",
+  "gas": null
+ },
+ {
+  "id": "equil_chromate",
+  "type": "equilibrium",
+  "equation": "2CrO4^2- + 2H^+ <-> Cr2O7^2- + H2O",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "CrO4^2-",
+    "coef": 2
+   },
+   {
+    "species": "H^+",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Cr2O7^2-",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -15.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "أصفر ⇄ برتقالي؛ الحمض يحوّل للبرتقالي والقلوي للأصفر",
+  "gas": null
+ },
+ {
+  "id": "equil_no2_n2o4",
+  "type": "equilibrium",
+  "equation": "2NO2 <-> N2O4",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "NO2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "N2O4",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -57.0,
+  "dS_JK": -176.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "بني محمر ⇄ عديم اللون؛ التبريد يفتح اللون (تفاعل طارد)",
+  "gas": null
+ },
+ {
+  "id": "equil_nh3_water",
+  "type": "equilibrium",
+  "equation": "NH3 + H2O <-> NH4^+ + OH^-",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "NH3",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "NH4^+",
+    "coef": 1
+   },
+   {
+    "species": "OH^-",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 3.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "اتزان قاعدة ضعيفة؛ إضافة NH4Cl تقلل pH",
+  "gas": null
+ },
+ {
+  "id": "equil_h2o2_dimer",
+  "type": "equilibrium",
+  "equation": "N2 + 3H2 <-> 2NH3",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "N2",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "NH3",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:Fe"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "Fe",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -92.0,
+  "dS_JK": -199.0,
+  "Ea_kJ": 230.0,
+  "observationAr": "هابر: ضغط عالٍ ودرجة حرارة متوسطة وحفاز الحديد",
+  "gas": "NH3"
+ },
+ {
+  "id": "combust_mg",
+  "type": "combustion",
+  "equation": "2Mg + O2 -> 2MgO",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Mg",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "MgO",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -1204.0,
+  "dS_JK": -217.0,
+  "Ea_kJ": 50.0,
+  "observationAr": "لهب أبيض مبهر ومسحوق أبيض (أكسيد الماغنسيوم)",
+  "gas": null
+ },
+ {
+  "id": "combust_s",
+  "type": "combustion",
+  "equation": "S + O2 -> SO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "S",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "SO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -297.0,
+  "dS_JK": 11.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "لهب أزرق وغاز SO2 خانق",
+  "gas": "SO2"
+ },
+ {
+  "id": "combust_h2",
+  "type": "combustion",
+  "equation": "2H2 + O2 -> 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -572.0,
+  "dS_JK": -327.0,
+  "Ea_kJ": 50.0,
+  "observationAr": "لهب باهت ويتكاثف ماء على جدار بارد",
+  "gas": null
+ },
+ {
+  "id": "combust_fe",
+  "type": "combustion",
+  "equation": "3Fe + 2O2 -> Fe3O4",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe",
+    "coef": 3
+   },
+   {
+    "species": "O2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Fe3O4",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -1118.0,
+  "dS_JK": -550.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "شرر ساطع (صوف الحديد) وراسب أسود",
+  "gas": null
+ },
+ {
+  "id": "combust_cu",
+  "type": "combustion",
+  "equation": "2Cu + O2 -> 2CuO",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Cu",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CuO",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -314.0,
+  "dS_JK": -190.0,
+  "Ea_kJ": 70.0,
+  "observationAr": "يسود سطح النحاس عند التسخين",
+  "gas": null
+ },
+ {
+  "id": "combust_p",
+  "type": "combustion",
+  "equation": "4P + 5O2 -> 2P2O5",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "P",
+    "coef": 4
+   },
+   {
+    "species": "O2",
+    "coef": 5
+   }
+  ],
+  "products": [
+   {
+    "species": "P2O5",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -2984.0,
+  "dS_JK": -1150.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "لهب أبيض وسحابة بيضاء من P2O5",
+  "gas": null
+ },
+ {
+  "id": "combust_na",
+  "type": "combustion",
+  "equation": "2Na + O2 -> Na2O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Na",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Na2O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -511.0,
+  "dS_JK": -120.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "لهب أصفر ساطع ومسحوق أصفر باهت",
+  "gas": null
+ },
+ {
+  "id": "smelt_cuo_c",
+  "type": "smelting",
+  "equation": "2CuO + C -> 2Cu + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CuO",
+    "coef": 2
+   },
+   {
+    "species": "C",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu",
+    "coef": 2
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 81.0,
+  "dS_JK": 190.0,
+  "Ea_kJ": 120.0,
+  "observationAr": "يتحول الأسود إلى نحاس أحمر في البودقة مع تصاعد CO2",
+  "gas": "CO2"
+ },
+ {
+  "id": "smelt_fe2o3_c",
+  "type": "smelting",
+  "equation": "2Fe2O3 + 3C -> 4Fe + 3CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Fe2O3",
+    "coef": 2
+   },
+   {
+    "species": "C",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "Fe",
+    "coef": 4
+   },
+   {
+    "species": "CO2",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 467.0,
+  "dS_JK": 560.0,
+  "Ea_kJ": 200.0,
+  "observationAr": "اختزال خام الحديد عند الحرارة العالية",
+  "gas": "CO2"
+ },
+ {
+  "id": "smelt_zno_c",
+  "type": "smelting",
+  "equation": "ZnO + C -> Zn + CO",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "ZnO",
+    "coef": 1
+   },
+   {
+    "species": "C",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Zn",
+    "coef": 1
+   },
+   {
+    "species": "CO",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 349.0,
+  "dS_JK": 280.0,
+  "Ea_kJ": 200.0,
+  "observationAr": "اختزال بالفحم عند الحرارة العالية (>900°م)",
+  "gas": "CO"
+ },
+ {
+  "id": "thermite",
+  "type": "redox",
+  "equation": "2Al + Fe2O3 -> Al2O3 + 2Fe",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Al",
+    "coef": 2
+   },
+   {
+    "species": "Fe2O3",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Al2O3",
+    "coef": 1
+   },
+   {
+    "species": "Fe",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -852.0,
+  "dS_JK": -39.0,
+  "Ea_kJ": 150.0,
+  "observationAr": "تفاعل ثرميت شديد: حديد منصهر وضوء ساطع بعد الإشعال",
+  "gas": null
+ },
+ {
+  "id": "electro_water",
+  "type": "electrolysis",
+  "equation": "2H2O -> 2H2 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "H2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "electric"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": true,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 572.0,
+  "dS_JK": 327.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "غاز H2 عند المهبط ضعف حجم O2 عند المصعد",
+  "gas": "H2"
+ },
+ {
+  "id": "electro_cuso4",
+  "type": "electrolysis",
+  "equation": "2CuSO4 + 2H2O -> 2Cu + 2H2SO4 + O2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CuSO4",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "Cu",
+    "coef": 2
+   },
+   {
+    "species": "H2SO4",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "electric"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": true,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 350.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "ترسب نحاس أحمر عند المهبط وغاز O2 عند المصعد وزوال اللون الأزرق",
+  "gas": "O2"
+ },
+ {
+  "id": "electro_nacl_aq",
+  "type": "electrolysis",
+  "equation": "2NaCl + 2H2O -> 2NaOH + H2 + Cl2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "NaCl",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "NaOH",
+    "coef": 2
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   },
+   {
+    "species": "Cl2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "electric"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": true,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 430.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "H2 عند المهبط وCl2 عند المصعد ويتكوّن NaOH",
+  "gas": "Cl2"
+ },
+ {
+  "id": "electro_pbbr2",
+  "type": "electrolysis",
+  "equation": "PbBr2 -> Pb + Br2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "PbBr2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Pb",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "electric",
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": true,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 278.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "رصاص منصهر عند المهبط وأبخرة بروم عند المصعد",
+  "gas": "Br2"
+ },
+ {
+  "id": "daniell",
+  "type": "galvanic",
+  "equation": "Zn + Cu^2+ -> Zn^2+ + Cu",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "Zn",
+    "coef": 1
+   },
+   {
+    "species": "Cu^2+",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "Zn^2+",
+    "coef": 1
+   },
+   {
+    "species": "Cu",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -218.0,
+  "dS_JK": -21.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "خلية دانيال Eº=1.10 فولت؛ تيار من Zn إلى Cu عبر السلك",
+  "gas": null
+ },
+ {
+  "id": "org_ch4_cl2",
+  "type": "substitution",
+  "equation": "CH4 + Cl2 -> CH3Cl + HCl",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH4",
+    "coef": 1
+   },
+   {
+    "species": "Cl2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3Cl",
+    "coef": 1
+   },
+   {
+    "species": "HCl",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "light"
+  ],
+  "needsHeat": false,
+  "needsLight": true,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -100.0,
+  "dS_JK": 10.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "استبدال حر بالضوء فوق البنفسجي؛ يختفي لون الكلور الأصفر وتتكوّن أبخرة HCl",
+  "gas": "HCl"
+ },
+ {
+  "id": "org_ch4_comb",
+  "type": "combustion",
+  "equation": "CH4 + 2O2 -> CO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH4",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -890.0,
+  "dS_JK": -5.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب أزرق غير مضيء ويتكاثف ماء ويعكّر ماء الجير",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c2h6_comb",
+  "type": "combustion",
+  "equation": "2C2H6 + 7O2 -> 4CO2 + 6H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H6",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 7
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 4
+   },
+   {
+    "species": "H2O",
+    "coef": 6
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -3120.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب أزرق خفيف",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c3h8_comb",
+  "type": "combustion",
+  "equation": "C3H8 + 5O2 -> 3CO2 + 4H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C3H8",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 5
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 3
+   },
+   {
+    "species": "H2O",
+    "coef": 4
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -2220.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب أزرق (غاز الطهي)",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c2h4_comb",
+  "type": "combustion",
+  "equation": "C2H4 + 3O2 -> 2CO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H4",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -1411.0,
+  "dS_JK": -140.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب مضيء مع بعض السناج",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c2h2_comb",
+  "type": "combustion",
+  "equation": "2C2H2 + 5O2 -> 4CO2 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H2",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 5
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 4
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -2599.0,
+  "dS_JK": -190.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب شديد السطوع والحرارة ودخان كثيف (لحام الأكسي أسيتيلين)",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c2h5oh_comb",
+  "type": "combustion",
+  "equation": "C2H5OH + 3O2 -> 2CO2 + 3H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   },
+   {
+    "species": "O2",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 2
+   },
+   {
+    "species": "H2O",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -1367.0,
+  "dS_JK": 138.0,
+  "Ea_kJ": 90.0,
+  "observationAr": "لهب أزرق باهت غير مدخن",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c6h6_comb",
+  "type": "combustion",
+  "equation": "2C6H6 + 15O2 -> 12CO2 + 6H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H6",
+    "coef": 2
+   },
+   {
+    "species": "O2",
+    "coef": 15
+   }
+  ],
+  "products": [
+   {
+    "species": "CO2",
+    "coef": 12
+   },
+   {
+    "species": "H2O",
+    "coef": 6
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -6542.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "لهب مدخن شديد السناج (نسبة كربون عالية)",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_c2h4_br2",
+  "type": "addition",
+  "equation": "C2H4 + Br2 -> C2H4Br2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H4",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H4Br2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dark"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -120.0,
+  "dS_JK": -170.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "يزول اللون البرتقالي لماء البروم فورًا (كشف عن رابطة π)",
+  "gas": null
+ },
+ {
+  "id": "org_c2h2_br2",
+  "type": "addition",
+  "equation": "C2H2 + 2Br2 -> C2H2Br4",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H2",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H2Br4",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dark"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -240.0,
+  "dS_JK": -340.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "يزول لون البروم تدريجيًا (رابطة ثلاثية)",
+  "gas": null
+ },
+ {
+  "id": "org_c2h4_h2",
+  "type": "hydrogenation",
+  "equation": "C2H4 + H2 -> C2H6",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H4",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H6",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:Ni"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "Ni",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -137.0,
+  "dS_JK": -120.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "هدرجة بوجود النيكل المجزأ كحفاز",
+  "gas": null
+ },
+ {
+  "id": "org_c2h4_h2o",
+  "type": "hydration",
+  "equation": "C2H4 + H2O -> C2H5OH",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H4",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:H3PO4"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "H3PO4",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -45.0,
+  "dS_JK": -125.0,
+  "Ea_kJ": 80.0,
+  "observationAr": "إضافة ماء بوجود حفاز حمضي لتكوين الإيثانول",
+  "gas": null
+ },
+ {
+  "id": "org_c3h6_hbr",
+  "type": "addition",
+  "equation": "C3H6 + HBr -> C3H7Br",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C3H6",
+    "coef": 1
+   },
+   {
+    "species": "HBr",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C3H7Br",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dark"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -85.0,
+  "dS_JK": -130.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "إضافة ماركوفنيكوف: يرتبط H بذرة C الأكثر هيدروجينًا فينتج 2-برومو بروبان",
+  "gas": null
+ },
+ {
+  "id": "org_c2h5oh_dehyd",
+  "type": "dehydration",
+  "equation": "C2H5OH -> C2H4 + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H4",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "conc",
+   "cat:H2SO4"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": "H2SO4",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 45.0,
+  "dS_JK": 126.0,
+  "Ea_kJ": 150.0,
+  "observationAr": "عند 170°م يتكوّن الإيثين؛ وعند 140°م يتكوّن الإيثير",
+  "gas": "C2H4"
+ },
+ {
+  "id": "org_ether_dehyd",
+  "type": "dehydration",
+  "equation": "2C2H5OH -> (C2H5)2O + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H5OH",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "(C2H5)2O",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "conc",
+   "cat:H2SO4"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": "H2SO4",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -25.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 130.0,
+  "observationAr": "عند 140°م يتكوّن إيثير ثنائي الإيثيل",
+  "gas": null
+ },
+ {
+  "id": "org_esterify",
+  "type": "esterification",
+  "equation": "CH3COOH + C2H5OH <-> CH3COOC2H5 + H2O",
+  "reversible": true,
+  "reactants": [
+   {
+    "species": "CH3COOH",
+    "coef": 1
+   },
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COOC2H5",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "conc",
+   "cat:H2SO4"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": true,
+  "catalyst": "H2SO4",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -2.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "رائحة فاكهية مميزة (استر)؛ تفاعل انعكاسي والحفاز يسرّع الوصول للاتزان",
+  "gas": null
+ },
+ {
+  "id": "org_saponify",
+  "type": "saponification",
+  "equation": "C57H110O6 + 3NaOH -> 3C17H35COONa + C3H8O3",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C57H110O6",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "C17H35COONa",
+    "coef": 3
+   },
+   {
+    "species": "C3H8O3",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -100.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 80.0,
+  "observationAr": "تكوّن الصابون والجلسرين؛ يُفصل الصابون بإضافة ملح الطعام",
+  "gas": null
+ },
+ {
+  "id": "org_ester_hydrolysis",
+  "type": "hydrolysis",
+  "equation": "CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COOC2H5",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COONa",
+    "coef": 1
+   },
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -60.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 50.0,
+  "observationAr": "تحلل قلوي للاستر وزوال الرائحة الفاكهية",
+  "gas": null
+ },
+ {
+  "id": "org_ethanol_oxidation",
+  "type": "oxidation",
+  "equation": "C2H5OH + [O] -> CH3CHO + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H5OH",
+    "coef": 1
+   },
+   {
+    "species": "[O]",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3CHO",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:Cu"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "Cu",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -60.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "تحول ديكرومات البوتاسيوم المحمضة من البرتقالي إلى الأخضر؛ رائحة الأسيت ألدهيد",
+  "gas": "CH3CHO"
+ },
+ {
+  "id": "org_acetaldehyde_tollens",
+  "type": "oxidation",
+  "equation": "CH3CHO + 2Ag(NH3)2^+ + 3OH^- -> CH3COO^- + 2Ag + 4NH3 + 2H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3CHO",
+    "coef": 1
+   },
+   {
+    "species": "Ag(NH3)2^+",
+    "coef": 2
+   },
+   {
+    "species": "OH^-",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COO^-",
+    "coef": 1
+   },
+   {
+    "species": "Ag",
+    "coef": 2
+   },
+   {
+    "species": "NH3",
+    "coef": 4
+   },
+   {
+    "species": "H2O",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -120.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "مرآة فضية على جدار الأنبوب (كاشف تولنز للألدهيدات)",
+  "gas": null
+ },
+ {
+  "id": "org_acetaldehyde_fehling",
+  "type": "oxidation",
+  "equation": "CH3CHO + 2Cu^2+ + 5OH^- -> CH3COO^- + Cu2O + 3H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3CHO",
+    "coef": 1
+   },
+   {
+    "species": "Cu^2+",
+    "coef": 2
+   },
+   {
+    "species": "OH^-",
+    "coef": 5
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COO^-",
+    "coef": 1
+   },
+   {
+    "species": "Cu2O",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -80.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "راسب أحمر طوبي من Cu2O (كاشف فهلنج)",
+  "gas": null
+ },
+ {
+  "id": "org_acetone_no_tollens",
+  "type": "negative-test",
+  "equation": "CH3COCH3 + Ag(NH3)2^+ -> no reaction",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COCH3",
+    "coef": 1
+   },
+   {
+    "species": "Ag(NH3)2^+",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "no reaction",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 0.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "لا مرآة فضية: الكيتونات لا تختزل تولنز (تمييز بين الألدهيد والكيتون)",
+  "gas": null
+ },
+ {
+  "id": "org_iodoform",
+  "type": "haloform",
+  "equation": "CH3COCH3 + 3I2 + 4NaOH -> CHI3 + CH3COONa + 3NaI + 3H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COCH3",
+    "coef": 1
+   },
+   {
+    "species": "I2",
+    "coef": 3
+   },
+   {
+    "species": "NaOH",
+    "coef": 4
+   }
+  ],
+  "products": [
+   {
+    "species": "CHI3",
+    "coef": 1
+   },
+   {
+    "species": "CH3COONa",
+    "coef": 1
+   },
+   {
+    "species": "NaI",
+    "coef": 3
+   },
+   {
+    "species": "H2O",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -100.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 30.0,
+  "observationAr": "راسب أصفر من اليودوفورم ورائحة مميزة (كشف مجموعة CH3CO)",
+  "gas": null
+ },
+ {
+  "id": "org_phenol_br2",
+  "type": "substitution",
+  "equation": "C6H5OH + 3Br2 -> C6H2Br3OH + 3HBr",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H5OH",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 3
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H2Br3OH",
+    "coef": 1
+   },
+   {
+    "species": "HBr",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -180.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "راسب أبيض من ثلاثي برومو فينول وزوال لون ماء البروم",
+  "gas": null
+ },
+ {
+  "id": "org_phenol_fecl3",
+  "type": "color-test",
+  "equation": "C6H5OH + FeCl3 -> violet complex",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H5OH",
+    "coef": 1
+   },
+   {
+    "species": "FeCl3",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "violet complex",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 0.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "لون بنفسجي مع كلوريد الحديد(III) (كشف الفينول)",
+  "gas": null
+ },
+ {
+  "id": "org_phenol_naoh",
+  "type": "neutralization",
+  "equation": "C6H5OH + NaOH -> C6H5ONa + H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H5OH",
+    "coef": 1
+   },
+   {
+    "species": "NaOH",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H5ONa",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dil"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -30.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "الفينول حمض ضعيف: يذوب في NaOH ولا يتفاعل مع NaHCO3",
+  "gas": null
+ },
+ {
+  "id": "org_benzene_br2",
+  "type": "substitution",
+  "equation": "C6H6 + Br2 -> C6H5Br + HBr",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H6",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H5Br",
+    "coef": 1
+   },
+   {
+    "species": "HBr",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dark",
+   "cat:FeBr3"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "FeBr3",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -30.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 60.0,
+  "observationAr": "لا يزيل لون البروم بدون حفاز (الحلقة الأروماتية مستقرة)؛ بوجود FeBr3 يحدث استبدال",
+  "gas": "HBr"
+ },
+ {
+  "id": "org_cyclohexene_br2",
+  "type": "addition",
+  "equation": "C6H12 + Br2 -> C6H12Br2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H12",
+    "coef": 1
+   },
+   {
+    "species": "Br2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H12Br2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "dark"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -120.0,
+  "dS_JK": -170.0,
+  "Ea_kJ": 20.0,
+  "observationAr": "يزول لون البروم فورًا (كشف عن الرابطة المزدوجة)",
+  "gas": null
+ },
+ {
+  "id": "org_ethanol_na",
+  "type": "single-displacement",
+  "equation": "2C2H5OH + 2Na -> 2C2H5ONa + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C2H5OH",
+    "coef": 2
+   },
+   {
+    "species": "Na",
+    "coef": 2
+   }
+  ],
+  "products": [
+   {
+    "species": "C2H5ONa",
+    "coef": 2
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -80.0,
+  "dS_JK": 90.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "فقاعات H2 هادئة (أبطأ من الماء)",
+  "gas": "H2"
+ },
+ {
+  "id": "org_acetic_nahco3",
+  "type": "acid-carbonate",
+  "equation": "CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COOH",
+    "coef": 1
+   },
+   {
+    "species": "NaHCO3",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "CH3COONa",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   },
+   {
+    "species": "CO2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 15.0,
+  "dS_JK": 270.0,
+  "Ea_kJ": 10.0,
+  "observationAr": "فوران وتصاعد CO2 (الأحماض الكربوكسيلية أقوى من H2CO3؛ الفينول لا)",
+  "gas": "CO2"
+ },
+ {
+  "id": "org_acetic_mg",
+  "type": "single-displacement",
+  "equation": "2CH3COOH + Mg -> (CH3COO)2Mg + H2",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "CH3COOH",
+    "coef": 2
+   },
+   {
+    "species": "Mg",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "(CH3COO)2Mg",
+    "coef": 1
+   },
+   {
+    "species": "H2",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -300.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "فقاعات H2 ببطء",
+  "gas": "H2"
+ },
+ {
+  "id": "org_polymerize",
+  "type": "polymerization",
+  "equation": "n C2H4 -> (C2H4)n",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "n C2H4",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "(C2H4)n",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:peroxide"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "peroxide",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -95.0,
+  "dS_JK": -140.0,
+  "Ea_kJ": 100.0,
+  "observationAr": "يتكوّن بولي إيثيلين صلب شمعي (ضغط وحرارة)",
+  "gas": null
+ },
+ {
+  "id": "org_glucose_fehling",
+  "type": "oxidation",
+  "equation": "C6H12O6 + 2Cu^2+ + 5OH^- -> C6H11O7^- + Cu2O + 3H2O",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C6H12O6",
+    "coef": 1
+   },
+   {
+    "species": "Cu^2+",
+    "coef": 2
+   },
+   {
+    "species": "OH^-",
+    "coef": 5
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H11O7^-",
+    "coef": 1
+   },
+   {
+    "species": "Cu2O",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 3
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -60.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 40.0,
+  "observationAr": "راسب أحمر طوبي (سكر مختزل)",
+  "gas": null
+ },
+ {
+  "id": "org_sucrose_nontest",
+  "type": "negative-test",
+  "equation": "C12H22O11 + Cu^2+ -> no reaction",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C12H22O11",
+    "coef": 1
+   },
+   {
+    "species": "Cu^2+",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "no reaction",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "heat"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 0.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "السكروز لا يختزل فهلنج قبل التحلل المائي (غير مختزل)",
+  "gas": null
+ },
+ {
+  "id": "org_starch_iodine",
+  "type": "color-test",
+  "equation": "(C6H10O5)n + I2 -> blue complex",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "(C6H10O5)n",
+    "coef": 1
+   },
+   {
+    "species": "I2",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "blue complex",
+    "coef": 1
+   }
+  ],
+  "conditions": [
+   "cold"
+  ],
+  "needsHeat": false,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": null,
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": 0.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 0.0,
+  "observationAr": "لون أزرق غامق (كشف النشا)؛ يزول بالتسخين ويعود بالتبريد",
+  "gas": null
+ },
+ {
+  "id": "org_sucrose_hydrolysis",
+  "type": "hydrolysis",
+  "equation": "C12H22O11 + H2O -> 2C6H12O6",
+  "reversible": false,
+  "reactants": [
+   {
+    "species": "C12H22O11",
+    "coef": 1
+   },
+   {
+    "species": "H2O",
+    "coef": 1
+   }
+  ],
+  "products": [
+   {
+    "species": "C6H12O6",
+    "coef": 2
+   }
+  ],
+  "conditions": [
+   "heat",
+   "cat:H^+"
+  ],
+  "needsHeat": true,
+  "needsLight": false,
+  "needsElectricity": false,
+  "needsConc": false,
+  "catalyst": "H^+",
+  "excessOf": null,
+  "slowPour": false,
+  "dH_kJ": -5.0,
+  "dS_JK": 0.0,
+  "Ea_kJ": 107.0,
+  "observationAr": "يصير السكر مختزلًا بعد التحلل (يعطي راسب فهلنج)",
+  "gas": null
+ }
+]
