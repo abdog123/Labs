@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>معمل ثانويكا</title>
+<link rel="stylesheet" href="ui/style.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand"><span class="logo">⚗</span><b>معمل ثانويكا</b><small>Thanawika Lab</small></div>
+  <nav id="modes" role="tablist">
+    <button data-mode="lab" class="on">المعمل الحر</button>
+    <button data-mode="qual">التحليل الكيفي</button>
+    <button data-mode="phys">معمل الفيزياء</button>
+    <button data-mode="codex">الموسوعة العلمية</button>
+  </nav>
+  <div class="ctl">
+    <label class="time" title="التحكم في سرعة الزمن">⏱ <input id="timeScale" type="range" min="0" max="3" step="0.05" value="0"><output id="timeOut">×1</output></label>
+    <button id="btnHood" class="tog" title="شفاط الأبخرة">🌀 الشفاط</button>
+    <button id="btnLens" class="tog" title="عدسة الذرة/الجزيء">🔬 العدسة</button>
+    <button id="btnReset" title="إعادة ضبط الطاولة">↺ تصفير</button>
+  </div>
+</header>
+
+<main id="app">
+  <section id="view-lab" class="view on">
+    <aside id="inv" class="side"><div class="tabs" id="invTabs"></div><input id="invSearch" type="search" placeholder="ابحث عن مادة…" autocomplete="off"><div id="invList" class="inv-list"></div></aside>
+    <div id="benchWrap"><canvas id="bench"></canvas><div id="hint" class="hint"></div><div id="alarm" class="alarm" hidden></div><div id="lensPanel" class="lens" hidden></div></div>
+    <aside id="info" class="side"><div class="tabs" id="infoTabs"></div><div id="infoBody"></div></aside>
+  </section>
+  <section id="view-phys" class="view"></section>
+  <section id="view-codex" class="view"></section>
+</main>
+
+<div id="dialog" class="dlg" hidden><div class="dlg-card"><h3 id="dlgTitle"></h3><div id="dlgBody"></div><div class="dlg-act"><button id="dlgOk" class="primary">تأكيد</button><button id="dlgCancel">إلغاء</button></div></div></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="data/bundle.js"></script>
+<script src="engine/chem.js"></script>
+<script src="engine/solution.js"></script>
+<script src="engine/container.js"></script>
+<script src="engine/equilibrium.js"></script>
+<script src="engine/catalogue.js"></script>
+<script src="engine/appearance.js"></script>
+<script src="engine/reactionEngine.js"></script>
+<script src="engine/physicsEngine.js"></script>
+<script src="ui/util.js"></script>
+<script src="ui/glass.js"></script>
+<script src="ui/bench.js"></script>
+<script src="ui/panels.js"></script>
+<script src="ui/codex.js"></script>
+<script src="ui/lens.js"></script>
+<script src="ui/qualitative.js"></script>
+<script src="ui/physicsLab.js"></script>
+<script src="ui/app.js"></script>
+</body>
+</html>
